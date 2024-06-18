@@ -1,0 +1,53 @@
+
+  img {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 20px;
+  }
+
+  .contenedor.piezas {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .fila {
+    display: flex;
+    gap: 0px;
+  }
+  
+  .huecos {
+    background-color: rgb(209, 228, 222);
+  }
+  
+  .hueco {
+    width: 150px;
+    height: 123px;
+    background-color: rgb(209, 228, 222);
+    border: 1px solid black;
+  }
+  
+  .piezas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+  
+  .pieza {
+    width: 150px;
+    height: 123px;
+    border: none;
+  }
+  
+  .pieza.dragging {
+    opacity: 0.3;
+  }
+  
